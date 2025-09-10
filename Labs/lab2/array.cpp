@@ -24,7 +24,7 @@ void printMemArr(const int arr[], int size){ // void printMem(const int * arr, i
  * @param size - number of elements in the array
  */
 void incArrBy10(int arr[], int size){ // void incArrBy10(int * arr, int size)
-    for(int i=0; i < size; i++) {
+    for(int i = 0; i < size; i++) {
         arr[i] += 10;
     }
 }
@@ -33,7 +33,7 @@ int main() {
     const int SIZE = 5;
     int arr[SIZE];
     for(int i = 0; i < SIZE; i++) {
-        arr [i] = 100 + i;
+        arr[i] = 100 + i;
     }
 
     printf("Before-----------------\n");
@@ -42,7 +42,7 @@ int main() {
     //change the value
     incArrBy10(arr, SIZE);
     printf("After------------------\n");
-    printMemArr(arr, SIZE);
+    printMemArr(arr,SIZE);
 
     return 0;
 }
