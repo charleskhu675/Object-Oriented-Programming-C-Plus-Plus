@@ -36,12 +36,12 @@ int main() {
         arr[i] = 100 + i;
     }
 
-    printf("Before-----------------\n");
+    printf("\nBefore-----------------\n");
     printMemArr(arr, SIZE);
 
     //change the value
     incArrBy10(arr, SIZE);
-    printf("After------------------\n");
+    printf("\nAfter------------------\n");
     printMemArr(arr,SIZE);
 
     return 0;
