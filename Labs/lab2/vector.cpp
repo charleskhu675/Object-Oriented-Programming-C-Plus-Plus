@@ -32,23 +32,23 @@ int main() {
         vec[i] = 100 + i;
     }
 
-    printf("Before Increment-------------\n");
+    printf("\nBefore Increment-------------\n");
     printMemVec(vec);
 
     incVecBy10(vec);
 
-    printf("After Increment--------------\n");
+    printf("\nAfter Increment--------------\n");
     printMemVec(vec);
 
     vec.pop_back();
 
-    printf("After Pop-------------------\n");
+    printf("\nAfter Pop-------------------\n");
     printMemVec(vec);
 
     vec.push_back(101);
     vec.push_back(102);
 
-    printf("After Push------------------\n");
+    printf("\nAfter Push------------------\n");
     printMemVec(vec);
 
     return 0;
