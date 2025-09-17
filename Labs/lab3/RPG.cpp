@@ -4,6 +4,16 @@
 #include "RPG.h"
 using namespace std;
 
+
+//Default constructor
+RPG::RPG() {
+    name = "NPC";
+    hits_taken = 0;
+    luck = ((float)1 + rand() % (10)) / 10;
+    exp = (1 + rand() % (10)) * 10;
+    level = 1;
+}
+
 //Overloaded constructor
 RPG::RPG(string name, int hits_taken, float luck, float exp, int level) {
     this->name = name;
