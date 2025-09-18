@@ -9,8 +9,8 @@ using namespace std;
 RPG::RPG() {
     name = "NPC";
     hits_taken = 0;
-    luck = ((float)1 + rand() % (10)) / 10;
-    exp = (1 + rand() % (10)) * 10;
+    luck = 0.1;
+    exp = 50.0;
     level = 1;
 }
 
