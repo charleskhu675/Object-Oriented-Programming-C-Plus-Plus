@@ -20,8 +20,8 @@ int main() {
     cout << p2.getName() << " hits taken: " << p2.getHitsTaken() << endl;
 
     cout << "0 = dead, 1 = alive\n";
-    cout << p1.getName() << p1.isAlive() << endl;
-    cout << p2.getName() << p2.isAlive() << endl;
+    cout << p1.getName() << " " << p1.isAlive() << endl;
+    cout << p2.getName() << " " << p2.isAlive() << endl;
 
     return 0;
 }
