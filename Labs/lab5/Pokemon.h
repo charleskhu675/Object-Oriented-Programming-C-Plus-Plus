@@ -15,7 +15,7 @@ class Pokemon{
         virtual void printStats();
         // ---------------- Accessor Functions ----------------
 
-    private:
+    protected:
         string name;
         int hp;
         int attack;
