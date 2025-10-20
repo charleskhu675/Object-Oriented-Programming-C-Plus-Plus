@@ -22,7 +22,7 @@ Pokemon::Pokemon(){
  * @param type
  */ 
 Pokemon::Pokemon(string name, int hp, int att, int def, vector<string> type){
-    this->name = string name;
+    this->name = name;
     this->hp = hp;
     attack = att;
     defense = def;
