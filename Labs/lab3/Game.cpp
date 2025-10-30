@@ -1,4 +1,6 @@
 //Game.cpp
+#include <iostream>
+#include <random>
 #include "Game.h"
 using namespace std;
 

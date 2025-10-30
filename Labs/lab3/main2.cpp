@@ -8,11 +8,11 @@ int main()
     Game::Game();
 
     int num_players = 10;
-    generatePlayers(num_players);
+    Game::generatePlayers(num_players);
 
-    gameLoop();
+    Game::gameLoop();
 
-    printFinalResults();
+    Game::printFinalResults();
 
     return 0;
 }

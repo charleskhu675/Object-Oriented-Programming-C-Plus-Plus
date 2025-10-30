@@ -1,6 +1,7 @@
 //RPG.cpp
 #include <iostream>
 #include <string>
+#include <random>
 #include "RPG.h"
 using namespace std;
 
@@ -66,7 +67,7 @@ void RPG::printStats() {
          << "\tLuck: " << luck
          << "\tExp: " << exp
          << "\tLevel: " << level
-         << "\tStatus: " << isAlive() ? "Alive" : "Dead"
+         << "\tStatus: " << (isAlive()) ? "Alive" : "Dead"
          << endl;
 }
 
