@@ -57,7 +57,7 @@ void RPG::attack(RPG * opponent) {
     bool hit = (random_num > HIT_FACTOR * opponent->getLuck());
 
     if (hit) {
-        opponent->updateHitsTaken;
+        opponent->setHitsTaken();
     }
 }
 
@@ -67,7 +67,7 @@ void RPG::printStats() {
          << "\tLuck: " << luck
          << "\tExp: " << exp
          << "\tLevel: " << level
-         << "\tStatus: " << (isAlive()) ? "Alive" : "Dead"
+         << "\tStatus: " << (isAlive() ? "Alive" : "Dead")
          << endl;
 }
 

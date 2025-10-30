@@ -5,14 +5,14 @@ using namespace std;
 
 int main()
 {
-    Game::Game();
+    Game my_game;
 
-    int num_players = 10;
-    Game::generatePlayers(num_players);
+    const int num_players = 10;
+    my_game.generatePlayers(num_players);
 
-    Game::gameLoop();
+    my_game.gameLoop();
 
-    Game::printFinalResults();
+    my_game.printFinalResults();
 
     return 0;
 }
