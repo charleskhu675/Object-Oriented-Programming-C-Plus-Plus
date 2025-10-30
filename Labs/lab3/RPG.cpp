@@ -57,7 +57,7 @@ void RPG::attack(RPG * opponent) {
     bool hit = (random_num > HIT_FACTOR * opponent->getLuck());
 
     if (hit) {
-        opponent->setHitsTaken();
+        opponent->setHitsTaken(opponent->getHitsTaken() + 1);
     }
 }
 
