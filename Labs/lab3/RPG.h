@@ -37,17 +37,17 @@ class RPG {
          *
          * @param opponent: RPG *
          */
-        void RPG::attack(RPG * opponent);
+        void attack(RPG * opponent);
         
         /** @brief Prints in the format:
          * "Name: NPC_X     Hits Taken: X   Luck: 0.X00000  Exp: X0.00000   Level: X    Status: Alive or Dead"
          */
-        void RPG::printStats();
+        void printStats();
         
         /** @brief Destroy the RPG::RPG object
          * Already completed
          */
-        RPG::~RPG();
+        ~RPG();
         
         //accessors
         string getName() const;
